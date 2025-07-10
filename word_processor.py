@@ -9,6 +9,7 @@ class WordVectorizer :
             for lines in file.readlines() :
                 words = lines.strip()
                 self.vocab.append(words)
+                print("done")
 
     def printer(self):
         print(self.vocab)
